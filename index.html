@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Personal Website</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#0b0b0f;color:#f5f5f5;
+font-family:Arial,sans-serif;line-height:1.7}
+header{text-align:center;padding:65px 20px 35px;
+background:linear-gradient(135deg,#191927,#101014)}
+.avatar{width:110px;height:110px;border-radius:50%;
+border:3px solid #a78bfa;object-fit:cover}
+h1{margin:15px 0 4px;font-size:34px}
+p{color:#bdbdc9}
+.tag{color:#c4b5fd}
+nav{display:flex;justify-content:center;flex-wrap:wrap;
+gap:10px;padding:15px}
+a{color:#c4b5fd;text-decoration:none}
+.btn{display:inline-block;border:1px solid #514477;
+padding:9px 15px;border-radius:12px}
+main{max-width:850px;margin:auto;padding:15px}
+section{background:#15151c;padding:22px;
+margin:18px 0;border-radius:18px}
+h2{margin-top:0;color:#c4b5fd}
+.socials{display:flex;gap:10px;flex-wrap:wrap}
+iframe{width:100%;aspect-ratio:16/9;border:0;
+border-radius:12px}
+footer{text-align:center;padding:25px;color:#aaa}
+</style>
+</head>
+<body>
+<header>
+  <img class="avatar"
+  src="https://placehold.co/200x200/202030/ffffff?text=ME"
+  alt="Profile photo">
+  <h1>Your Name</h1>
+  <p class="tag">Student | Creator | Dreamer</p>
+  <p>Welcome to my personal corner of the internet.</p>
+  <a class="btn" href="#about">Explore My World ↓</a>
+</header>
+
+<nav>
+  <a class="btn" href="#about">About</a>
+  <a class="btn" href="#social">Social Media</a>
+  <a class="btn" href="#videos">Videos</a>
+  <a class="btn" href="#contact">Contact</a>
+</nav>
+
+<main>
+<section id="about">
+  <h2>👋 About Me</h2>
+  <p>Hi! I'm Your Name. Welcome to my website!</p>
+  <p>I'm a student and content creator.
+  This website is where you can learn about me,
+  find my social media and watch my videos.</p>
+</section>
+
+<section id="social">
+  <h2>🌐 Find Me Online</h2>
+  <div class="socials">
+    <a class="btn" href="https://facebook.com/">Facebook</a>
+    <a class="btn" href="https://instagram.com/">Instagram</a>
+    <a class="btn" href="https://youtube.com/">YouTube</a>
+    <a class="btn" href="https://tiktok.com/">TikTok</a>
+  </div>
+  <p>Replace these links with your own profile URLs.</p>
+</section>
+
+<section id="videos">
+  <h2>🎬 My Videos</h2>
+  <p>Add your YouTube video here.</p>
+  <!-- Replace VIDEO_ID with your YouTube video ID -->
+  <iframe
+  src="https://www.youtube.com/embed/VIDEO_ID"
+  title="My video"
+  allowfullscreen></iframe>
+</section>
+
+<section id="contact">
+  <h2>✉️ Contact Me</h2>
+  <p>Want to connect? Find me on my social platforms.</p>
+  <a class="btn" href="#social">Connect With Me</a>
+</section>
+</main>
+
+<footer>
+  © 2026 Your Name · Made with care
+</footer>
+</body>
+</html>
